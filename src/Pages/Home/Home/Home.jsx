@@ -1,5 +1,7 @@
 import Bannar from "../Bannar/Bannar";
 import Category from "../Category/Category";
+import PopularMenu from "../PopularMenu/PopularMenu";
+import Services from "../Services/Services";
 
 
 const Home = () => {
@@ -7,6 +9,8 @@ const Home = () => {
         <div>
             <Bannar></Bannar>
             <Category></Category>
+            <Services></Services>
+            <PopularMenu></PopularMenu>
         </div>
     );
 };
