@@ -15,7 +15,7 @@ const Testimonials = () => {
 
     const [reviews, setReviews] = useState([])
     useEffect(() => {
-        fetch('Reviews.json')
+        fetch('reviews.json')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
